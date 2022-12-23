@@ -3,6 +3,56 @@
     <link rel="stylesheet" href="../dist/css/bootstrap.css" />
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container">
+        <!-- navbar logo -->
+        <a class="navbar-brand" href="#intro">
+          <span class="text-secondary fw-bold">Open Code Pro</span>
+        </a>
+
+        <!-- navbar toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-main"
+          aria-controls="navbar-main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links -->
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="navbar-main"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link" href="#topics">About The Book</a>
+          </div>
+
+          <div class="navbar-nav">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </div>
+
+          <div class="navbar-nav">
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+
+          <div class="navbar-nav d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </div>
+
+          <div class="navbar-nav d-md-block d-none">
+            <a class="btn btn-secondary ms-2" href="#pricing">Buy now</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main image -->
     <section id="intro">
       <div class="container my-5">
         <div class="row justify-content-center align-items-center">
@@ -13,9 +63,7 @@
               <p class="lead my-4 text-muted">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <a href="#pricing btn " class="btn btn-secondary btn-lg"
-                >Buy Now</a
-              >
+              <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
             </h1>
           </div>
 
